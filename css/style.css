@@ -1,0 +1,122 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+/* ------------------- HEADER -------------------- */
+
+#header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(22, 81, 189);
+}
+
+#pages{
+    margin-left: 50px;
+    line-height: 50px;
+}
+
+#header>#pages>a{
+    color:white;
+}
+
+/* ------------------- PAGE -------------------- */
+
+#page{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+#page>p{
+    color:rgb(201, 201, 201);
+    font-size: 150px;
+}
+
+/* ------------------- REGISTER PAGE -------------------- */
+
+#wiek{
+    width: 140px;
+    margin-right: -10px;
+}
+
+#uczen{
+    margin-left: -135px;
+}
+
+#plec{
+    margin-left: -55px;
+}
+
+#submit{
+    width: 140px;
+    height: 30px;
+    margin-left: 70px;
+}
+
+/* ------------------- ADMIN PAGE - Niezalogowany -------------------- */
+
+#header_niezalogowany{
+    background-color: rgb(255, 82, 105);
+}
+
+#header_niezalogowany>#pages>a{
+    color: white;
+}
+
+/* ------------------- ADMIN PAGE -------------------- */
+
+#header_admin{
+    background-color: rgb(255, 242, 61);
+}
+
+#header_admin>#pages>a{
+    color:black;
+}
+
+/* ------------------- SHOW -------------------- */
+
+#header_dark{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(49, 49, 49);
+}
+
+#pages_dark{
+    margin-left: 10px;
+    line-height: 50px;
+}
+
+#header_dark>#pages_dark>a{
+    color:white;
+}
+
+td{
+    border: 1px solid rgb(255, 214, 79);
+    background-color: rgb(49, 49, 49);
+    color:white;
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+}
+
+#tabela{
+    margin-left: 10px;
+}
+
+#login_haslo{
+    width: 300px;
+}
+
+/* ------------------- SORT -------------------- */
+
+#inputy{
+    color:white;
+}
+
+label{
+    margin-left: 10px;
+}

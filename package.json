@@ -1,0 +1,17 @@
+{
+  "name": "miniprojekt",
+  "version": "1.0.0",
+  "description": "opis",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "formidable": "^1.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "mg",
+  "license": "ISC"
+}
