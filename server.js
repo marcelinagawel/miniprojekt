@@ -11,7 +11,7 @@ var zalogowany = false
 
 //nasłuch na określonym porcie
 app.listen(PORT, function () {
-    console.log("start serwera na porcie AAAA" + PORT)
+    console.log("start serwera na porcie - kolejna zmiana" + PORT)
 })
 
 //do parsowania na obiekty danych przesyłanych w formularzu, potrzebny jest body-parser
