@@ -1,7 +1,8 @@
 //zmienne, stałe
 var express = require("express")
 var app = express()
-const PORT = 3000;
+var PORT = process.env.PORT || 3000;
+// bardzo istotna linijka - port zostaje przydzielony przez Heroku
 var path = require("path")
 var bodyParser = require("body-parser")
 
